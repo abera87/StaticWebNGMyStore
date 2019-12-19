@@ -16,7 +16,16 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install -g @angular/cli
     npm install
-    ng build --prod
-  displayName: 'npm install and build'
+  displayName: 'Install Dependencies'
+
+- script: |
+    npx ng build --prod
+  displayName: 'Build'
+### old existing script for install & build
+#- script: |
+#    npm install -g @angular/cli
+#    npm install
+#    ng build --prod
+#  displayName: 'npm install and build'
+####
