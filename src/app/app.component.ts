@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Static Azure Web NG My-Store';
+  title = 'Static Web NG My-Store';
 }
